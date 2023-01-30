@@ -1,15 +1,2 @@
-[filter "lfs"]
-        required = true
-        clean = git-lfs clean -- %f
-        smudge = git-lfs smudge -- %f
-        process = git-lfs filter-process
-[user]
-        email = nicholas.synovic@gmail.com
-        name = Nicholas M. Synovic
-        # signingkey =
-[commit]
-        gpgsign = true
-[credential]
-	helper = store
 [core]
 	autocrlf = false
